@@ -4,7 +4,7 @@ Create and return a Canvas within a JFrame using a bunch of optional settings an
 
 ## Installation
 
-Add this to your Leiningen dependencies:
+In Leiningen:
 
     [super-simple-window "0.0.1"]
 
@@ -20,13 +20,22 @@ Add this to your Leiningen dependencies:
  Create and return a Canvas within a JFrame using a bunch of optional settings and callbacks.
  A Timer is setup if :fps or :on-timer is given.
   Options:
-    :title - Exactly what it sounds like. Defaults to \"Super simple window\".
-    :width - The width of the Canvas within the window. Defaults to 640.
-    :height - The height of the Canvas within the window. Defaults to 480.
-    :fps - How often the timer (if used) runs. Defaults to 30.
-    :on-timer - Callback that receives a ... object.
-    :on-render - Callback that receives a Graphics object.
-    :on-key-press - Callback that receives a KeyEvent object.
+<table>
+  <tr><td>:title</td>
+      <td>Exactly what it sounds like. Defaults to \"Super simple window\".</td></tr>
+  <tr><td>:width</td>
+      <td>The width of the Canvas within the window. Defaults to 640.</td></tr>
+  <tr><td>:height</td>
+      <td>The height of the Canvas within the window. Defaults to 480.</td></tr>
+  <tr><td>:fps</td>
+      <td>How often the timer (if used) runs. Defaults to 30.</td></tr>
+  <tr><td>:on-timer</td>
+      <td>Callback that receives a ... object.</td></tr>
+  <tr><td>:on-render</td>
+      <td>Callback that receives a Graphics object.</td></tr>
+  <tr><td>:on-key-press</td>
+      <td>Callback that receives a KeyEvent object.</td></tr>
+</table>
 
 ## License
 
