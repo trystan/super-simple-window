@@ -6,7 +6,7 @@
 (set! *warn-on-reflection* true)
 (set! *unchecked-math* true)
 
-(defn new-window
+(defn new-super-simple-window
   "Create and return a Canvas within a JFrame using a bunch of optional settings and callbacks.
   A Timer is setup if :fps or :on-timer is given.
   Options:
