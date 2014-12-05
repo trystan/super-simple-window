@@ -10,11 +10,12 @@ In Leiningen:
 
 ## Usage
 
+There's just one function, `new-super-simple-window`.
+
 ````clojure
-(def -main []
-  (new-super-simple-window {:title "Bad example"
-                            :on-render my-render-fn
-                            :on-key-press my-keypress-handler}))
+(new-super-simple-window {:title "Bad example"
+                          :on-render my-render-fn
+                          :on-key-press my-keypress-handler}))
 ````
 
  Create and return a Canvas within a JFrame using a bunch of optional settings and callbacks.
