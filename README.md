@@ -6,7 +6,9 @@ Create and return a Canvas within a JFrame using a bunch of optional settings an
 
 In Leiningen:
 
-    [super-simple-window "0.0.1"]
+````clojure
+    [super-simple-window "0.1.0"]
+````
 
 ## Usage
 
@@ -40,7 +42,7 @@ There's just one function, `new-super-simple-window`.
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Trystan
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
