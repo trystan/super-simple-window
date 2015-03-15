@@ -3,4 +3,6 @@
   :url "https://github.com/trystan/super-simple-window"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.7.0-alpha4"]])
+  :dependencies [[org.clojure/clojure "1.7.0-alpha4"]]
+  :deploy-repositories {"releases " {:url "https://clojars.org/super-simple-window"
+                                     :sign-releases false}})
