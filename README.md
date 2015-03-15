@@ -21,7 +21,6 @@ There's just one function, `new-super-simple-window`.
 ````
 
  Create and return a Canvas within a JFrame using a bunch of optional settings and callbacks.
- A Timer is setup if :fps or :on-timer is given.
   Options:
 <table>
   <tr><td>:title</td>
@@ -32,17 +31,23 @@ There's just one function, `new-super-simple-window`.
       <td>The height of the Canvas within the window. Defaults to 480.</td></tr>
   <tr><td>:fps</td>
       <td>How often the timer (if used) runs. Defaults to 30.</td></tr>
-  <tr><td>:on-timer</td>
-      <td>Callback that receives a ... object.</td></tr>
-  <tr><td>:on-render</td>
-      <td>Callback that receives a Graphics object.</td></tr>
   <tr><td>:on-key-press</td>
       <td>Callback that receives a KeyEvent object.</td></tr>
+  <tr><td>:on-mouse-move</td>
+      <td>Callback that receives a MouseEvent object.</td></tr>
+  <tr><td>:on-mouse-click</td>
+      <td>Callback that receives a MouseEvent object.</td></tr>
+  <tr><td>:on-render</td>
+      <td>Callback that receives a Graphics object.</td></tr>
+  <tr><td>:on-timer</td>
+      <td>Callback that receives an ActionEvent object.</td></tr>
 </table>
+ :on-render is called after all other callbacks.
+ A Timer is setup if :on-timer is given.
 
 ## License
 
-Copyright © 2014 Trystan
+Copyright © 2015 Trystan
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.

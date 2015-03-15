@@ -14,7 +14,7 @@
     :height - The height of the Canvas within the window. Defaults to 480.
     :fps - How often the timer (if used) runs. Defaults to 30.
     :on-key-press - Callback that receives a KeyEvent object.
-    :on-mouse-move - Cllback that receives a MouseEvent object
+    :on-mouse-move - Callback that receives a MouseEvent object.
     :on-mouse-click - Callback that receives a KeyEvent object.
     :on-render - Callback that receives a Graphics object.
     :on-timer - Callback that receives an ActionEvent object.
